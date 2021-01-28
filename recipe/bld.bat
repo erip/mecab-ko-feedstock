@@ -9,6 +9,9 @@ if errorlevel 1 exit 1
 cp libmecab.* "%LIBRARY_LIB%"
 if errorlevel 1 exit 1
 
+cp libmecab.* "%LIBRARY_BIN%"
+if errorlevel 1 exit 1
+
 cp *.exe "%LIBRARY_BIN%"
 if errorlevel 1 exit 1
 
