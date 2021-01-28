@@ -6,7 +6,7 @@ if errorlevel 1 exit 1
 cp mecab.h "%LIBRARY_INC%"
 if errorlevel 1 exit 1
 
-cp libmecab.* "%LIBRARY_LIB%"
+cp libmecab.* "%LIBRARY_BIN%"
 if errorlevel 1 exit 1
 
 cp *.exe "%LIBRARY_BIN%"
