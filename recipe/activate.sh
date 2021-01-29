@@ -1,1 +1,1 @@
-export MECABRC="$PREFIX/etc/mecabrc"
+export MECABRC="$CONDA_PREFIX/etc/mecabrc"

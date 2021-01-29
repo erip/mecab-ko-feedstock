@@ -1,1 +1,1 @@
-set MECABRC=%PREFIX%\etc\mecabrc
+set MECABRC=%CONDA_PREFIX%\etc\mecabrc
