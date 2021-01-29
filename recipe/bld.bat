@@ -1,12 +1,15 @@
+mkdir "%PREFIX%\etc"
+if errorlevel 1 exit 1
+
 cd src 
 if errorlevel 1 exit 1
-nmake -f Makefile.msvc.x64.in
+nmake -f %RECIPE_DIR%\Makefile.msvc.x64.in 
 if errorlevel 1 exit 1
 
 cp mecab.h "%LIBRARY_INC%"
 if errorlevel 1 exit 1
 
-cp libmecab.* "%LIBRARY_LIB%"
+cp libmecab.* "%LIBRARY_BIN%"
 if errorlevel 1 exit 1
 
 cp *.exe "%LIBRARY_BIN%"
